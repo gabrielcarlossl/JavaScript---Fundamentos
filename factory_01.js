@@ -3,8 +3,9 @@ const prod1 = {
   preco: 4.5,
 };
 
-// facilita na criação de muitos objetos
 
+// facilita na criação de muitos objetos
+// é possivel passar parametros para a criação do objeto
 function criarPessoa(nome, sobrenome) {
   return { 
     
