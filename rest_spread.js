@@ -13,5 +13,7 @@ console.log(clone)
 const grupoA = ['a', 'b', 'c']
 
 const grupoFinal = [ 'F', ...grupoA, 'Z']
+const finalGroup = [1,2,grupoA,'G']
 
 console.log(grupoFinal)
+console.log(finalGroup)
